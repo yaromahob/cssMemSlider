@@ -1,3 +1,82 @@
 body {
   background-color: #666666;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  padding-top: 2%;
+  margin: 0 auto;
+}
+
+label {
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 150%;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 70%;
+  padding-bottom: 2%;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: all 1s;
+}
+
+.relative {
+  position: relative;
+  top: 39.4vw;
+  left: 92%;
+}
+
+.relativeText {
+  position: relative;
+  left: -499%;
+  top: 747px;
+  z-index: -1;
+}
+.label-two {
+  padding-left: 49%;
+}
+
+.label-three {
+  padding-left: 66%;
+}
+
+.label-four {
+  padding-left: 18%;
+}
+
+.label-five {
+  padding-left: 52%;
+}
+
+.navigation {
+  width: 84%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#inp1:checked ~ .s1 {
+  margin-left: -7.8%;
+}
+#inp2:checked ~ .s1 {
+  margin-left: -107.9%;
+}
+#inp3:checked ~ .s1 {
+  margin-left: -207.98%;
+}
+#inp4:checked ~ .s1 {
+  margin-left: -307.98%;
+}
+#inp5:checked ~ .s1 {
+  margin-left: -407.9%;
 }
