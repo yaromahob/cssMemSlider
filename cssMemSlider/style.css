@@ -171,7 +171,10 @@ label:focus::after {
   }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1183px) {
+  h1 {
+    font-size: 100%;
+  }
   span {
     font-size: 120%;
   }
@@ -180,13 +183,86 @@ label:focus::after {
     height: 38%;
   }
   .slider-text span {
-    padding-right: 34px;
+    padding-right: 40px;
+  }
+  #inp1:checked ~ .slider-text-container .slider-text {
+    margin-left: 0%;
+  }
+  #inp2:checked ~ .slider-text-container .slider-text {
+    margin-left: -101%;
+  }
+  #inp3:checked ~ .slider-text-container .slider-text {
+    margin-left: -203%;
+  }
+  #inp4:checked ~ .slider-text-container .slider-text {
+    margin-left: -305%;
+  }
+  #inp5:checked ~ .slider-text-container .slider-text {
+    margin-left: -407%;
+  }
+}
+@media (max-width: 824px) {
+  span {
+    font-size: 100%;
+  }
+
+  #inp1:checked ~ .slider-text-container .slider-text {
+    margin-left: 0%;
+  }
+  #inp2:checked ~ .slider-text-container .slider-text {
+    margin-left: -100%;
+  }
+  #inp3:checked ~ .slider-text-container .slider-text {
+    margin-left: -207%;
+  }
+  #inp4:checked ~ .slider-text-container .slider-text {
+    margin-left: -310%;
+  }
+  #inp5:checked ~ .slider-text-container .slider-text {
+    margin-left: -415%;
+  }
+}
+@media (max-width: 600px) {
+  #inp1:checked ~ .slider-text-container .slider-text {
+    margin-left: 0%;
+  }
+  #inp2:checked ~ .slider-text-container .slider-text {
+    margin-left: -100%;
+  }
+  #inp3:checked ~ .slider-text-container .slider-text {
+    margin-left: -213%;
+  }
+  #inp4:checked ~ .slider-text-container .slider-text {
+    margin-left: -320%;
+  }
+  #inp5:checked ~ .slider-text-container .slider-text {
+    margin-left: -426%;
+  }
+}
+@media (max-width: 425px) {
+  #inp1:checked ~ .slider-text-container .slider-text {
+    margin-left: 0%;
+  }
+  #inp2:checked ~ .slider-text-container .slider-text {
+    margin-left: -111%;
+  }
+  #inp3:checked ~ .slider-text-container .slider-text {
+    margin-left: -222%;
+  }
+  #inp4:checked ~ .slider-text-container .slider-text {
+    margin-left: -332%;
+  }
+  #inp5:checked ~ .slider-text-container .slider-text {
+    margin-left: -443%;
   }
 }
 
-@media (max-width: 320px) {
-  span {
+@media (max-width: 358px) {
+  h1 {
     font-size: 100%;
+  }
+  span {
+    font-size: 80%;
   }
 
   #inp1:checked ~ .slider-text-container .slider-text {
@@ -199,7 +275,7 @@ label:focus::after {
     margin-left: -225%;
   }
   #inp4:checked ~ .slider-text-container .slider-text {
-    margin-left: -340%;
+    margin-left: -337%;
   }
   #inp5:checked ~ .slider-text-container .slider-text {
     margin-left: -450%;
