@@ -28,6 +28,7 @@ span {
 .container {
   width: 100%;
   overflow: hidden;
+  border: 10px solid black;
 }
 
 .slider-img {
