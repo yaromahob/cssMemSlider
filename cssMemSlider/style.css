@@ -139,23 +139,22 @@ label:focus::after {
   border: 1px #fff solid;
 }
 
-@media (max-width: 1368px) {
-  label {
-    width: 12%;
-    height: 39%;
-  }
-}
-@media (max-width: 1180px) {
-  label {
-    width: 12%;
-    height: 38%;
-  }
-}
 @media (max-width: 1400px) {
   label {
     max-height: 40%;
   }
 }
+
+@media (max-width: 1368px) {
+  span {
+    font-size: 133%;
+  }
+  label {
+    width: 12%;
+    height: 39%;
+  }
+}
+
 @media (max-width: 1285px) {
   .slider-text-container {
     width: 100%;
@@ -169,5 +168,40 @@ label:focus::after {
     max-width: 3%;
     width: 12%;
     height: 38%;
+  }
+}
+
+@media (max-width: 1180px) {
+  span {
+    font-size: 120%;
+  }
+  label {
+    width: 12%;
+    height: 38%;
+  }
+  .slider-text span {
+    padding-right: 34px;
+  }
+}
+
+@media (max-width: 320px) {
+  span {
+    font-size: 100%;
+  }
+
+  #inp1:checked ~ .slider-text-container .slider-text {
+    margin-left: 0%;
+  }
+  #inp2:checked ~ .slider-text-container .slider-text {
+    margin-left: -110%;
+  }
+  #inp3:checked ~ .slider-text-container .slider-text {
+    margin-left: -225%;
+  }
+  #inp4:checked ~ .slider-text-container .slider-text {
+    margin-left: -340%;
+  }
+  #inp5:checked ~ .slider-text-container .slider-text {
+    margin-left: -450%;
   }
 }
